@@ -1,5 +1,7 @@
 <div class="youku_block">
-    <h2>{{ display_name }}</h2>
+    <h2 class="problem-header">${ problem['name'] }</h2>
     <hr>
-    <div id="youkuplayer" style="width:{{width}}px;height:{{height}}px"></div>
+    <div id="youkuplayer_${xblock_id}" style="width:${width}px;height:${height}px" data-app-id="${app_id}" data-file-id="${file_id}">
+        ${ problem['html'] }
+    </div>
 </div>

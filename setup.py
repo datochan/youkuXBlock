@@ -28,7 +28,7 @@ setup(
     ],
     entry_points={
         'xblock.v1': [
-            'youku = youku:youkuXBlock',
+            'youku = youku:YoukuDescriptor',
         ]
     },
     package_data=package_data("youku", "static"),

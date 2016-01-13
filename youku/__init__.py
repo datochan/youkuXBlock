@@ -1,1 +1,1 @@
-from .youku import youkuXBlock
+from .youku import YoukuModule, YoukuDescriptor
